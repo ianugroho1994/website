@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>hi.ianugroho.com</title>
+   </head>
+   <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        background-color: #191919;
+        color: white;
+      }
+
+      .gradient-box{
+         background: rgb(2,0,36);
+         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,77,82,1) 46%, rgba(0,212,255,1) 100%);
+         width: 100vw;
+         height: 20vh;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-left: 10rem;
+        padding: 0;
+      }
+
+      .main-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10rem 7em 10rem;
+        margin: 0 0 0 0;
+      }
+
+      .main-content {
+        width: 70%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+
+      .cutout {
+        background-color: #252525;
+        padding: 10px;
+        margin-bottom: 5px;
+        width: 90%;
+      }
+
+      .cutout-p{
+         margin: 0 0 0 0;
+         padding: 0 0 0 0;
+      }
+
+      .detail-content {
+         display: flex;
+         flex-direction: column;
+         width: 30%;
+         padding: 0 0 0 0;
+         margin: 0 0 0 0;
+      }
+
+      .detail-info {
+         background-color: #573C27;
+         padding: 5px;
+         margin-bottom: 5px;
+      }
+
+      a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .stacks{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: flex-start;
+         padding: 0 10rem 0 10rem;
+         margin: 0 0 0 0;
+      }
+
+      @media screen and (max-width: 600px) {
+        .main-info {
+          flex-direction: column;
+        }
+
+        .main-content {
+          width: 100%;
+        }
+
+        .detail-content {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        h1 {
+          font-size: 1.5em;
+        }
+      }
+
+      @media screen and (max-width: 300px) {
+        h1 {
+          font-size: 1.2em;
+        }
+      }
+
+      @media screen and (max-width: 200px) {
+        h1 {
+          font-size: 1em;
+        }
+      }
+
+      
+   </style>
+   <body>
+      <div class="gradient-box"></div>
+      <h1>Hey, I'm Ardianto Nugroho 🙂</h1>
+      <div class="main-info">
+          <div class="main-content">
+            <p>I'm a Software Engineer that has experiences on Backend, little bit Frontend, and even some DevOps tasks.<br>
+               I am a seen learner, team player, and a good communicator. I am also a fast learner and I am always eager to learn new things.
+            </p>
+            <div class="cutout">
+               <p class="cutout-p">💼  Current : Software Engineer @ <a href="https://www.tokopedia.com/">Dispendix Gmbh</a></p>
+            </div>        
+         </div>
+         <div class="detail-content">
+            <div class="detail-info">
+               <a href="https://www.tokopedia.com/">👨 Whoami ?</a>
+            </div>
+            <div class="detail-info">
+               <a href="https://www.tokopedia.com/">📰 My Resume</a>
+            </div>
+            <div class="detail-info">
+               <a href="https://www.tokopedia.com/">🖊️ GitHub</a>
+            </div>
+         </div>
+      </div>
+      <hr style="width: 90vw; border: 1px solid #373737;">
+      <p style="margin-top: 50px; margin-left: 10rem;">🛠️ Stacks that i use</p>
+      <div class="stacks">
+         <div class="app">
+            <ul>
+               <p>App</p>
+               <li class="detail-info">Winform</li>
+               <li class="detail-info">WPF</li>
+               <li class="detail-info">Avalonia</li>
+            </ul>
+         </div>
+         <div class="backend">
+            <ul>
+               <p>Backend</p>
+               <li class="detail-info">ASP .NET</li>
+               <li class="detail-info">Go</li>
+               <li class="detail-info">SignalR</li>
+               <li class="detail-info">gRPC</li>
+               <li class="detail-info">PostgreSQL</li>
+               <li class="detail-info">Redis</li>
+               <li class="detail-info">MySQL</li>
+               <li class="detail-info">Rest API</li>
+               <li class="detail-info">Python</li>
+            </ul>
+         </div>
+         <div class="frontend">
+            <ul>
+               <p>Frontend</p>
+               <li class="detail-info">Angular</li>
+               <li class="detail-info">NodeJS</li>
+               <li class="detail-info">Electron</li>
+               <li class="detail-info">Typescript</li>
+            </ul>
+         </div>
+         <div class="devops">
+            <ul>
+               <p>DevOps</p>
+               <li class="detail-info">Portainer</li>
+               <li class="detail-info">Traefik</li>
+               <li class="detail-info">Linux</li>
+            </ul>
+         </div>
+      </div>
+   </body>
+</html>
