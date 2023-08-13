@@ -13,8 +13,8 @@
         font-weight: 500;
         line-height: 17px;
         background-color: #191919;
-        color: white;
-        overflow: hidden;
+        color: #D4D4D4;
+        overflow-x: hidden;
       }
 
       .gradient-box{
@@ -22,6 +22,8 @@
          background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,77,82,1) 46%, rgba(0,212,255,1) 100%);
          width: 100vw;
          height: 20vh;
+         position: relative;
+         margin-bottom: 80px;
       }
 
       h1 {
@@ -37,7 +39,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10rem 7em 10rem;
+        padding: 0 10rem 2em 10rem;
         margin: 0 0 0 0;
       }
 
@@ -91,6 +93,14 @@
          margin: 0 0 0 0;
       }
 
+      .icons{
+         font-size: 5rem; 
+         margin-bottom: 0; 
+         position: absolute;
+         top: 20vh;
+         left: 10rem;
+      }
+
       @media screen and (max-width: 600px) {
         .main-info {
           flex-direction: column;
@@ -126,7 +136,9 @@
       
    </style>
    <body>
-      <div class="gradient-box"></div>
+      <div class="gradient-box">
+         <div class="icons">💻</div>
+      </div>
       <h1>Hey, I'm Ardianto Nugroho 🙂</h1>
       <div class="main-info">
           <div class="main-content">
@@ -145,12 +157,12 @@
                <a href="resume.html">📰 My Resume</a>
             </div>
             <div class="detail-info">
-               <a href="https://www.tokopedia.com/">🖊️ GitHub</a>
+               <a href="https://github.com/ianugroho1994">🖊️ GitHub</a>
             </div>
          </div>
       </div>
       <hr style="width: 90vw; border: 1px solid #373737;">
-      <p style="margin-top: 50px; margin-left: 10rem;">🛠️ Stacks that i use</p>
+      <p style="margin-top: 50px; margin-left: 10rem;">⚡ Stacks that i use :</p>
       <div class="stacks">
          <div class="app">
             <ul>
@@ -165,12 +177,7 @@
                <p>Backend</p>
                <li class="detail-info">ASP .NET</li>
                <li class="detail-info">Go</li>
-               <li class="detail-info">SignalR</li>
-               <li class="detail-info">gRPC</li>
-               <li class="detail-info">PostgreSQL</li>
-               <li class="detail-info">Redis</li>
-               <li class="detail-info">MySQL</li>
-               <li class="detail-info">Rest API</li>
+               <li class="detail-info">SignalR, gRPC, Rest API</li>
                <li class="detail-info">Python</li>
             </ul>
          </div>
@@ -181,6 +188,14 @@
                <li class="detail-info">NodeJS</li>
                <li class="detail-info">Electron</li>
                <li class="detail-info">Typescript</li>
+            </ul>
+         </div>
+         <div class="database">
+            <ul>
+               <p>Databases</p>
+               <li class="detail-info">PostgreSQL</li>
+               <li class="detail-info">Redis</li>
+               <li class="detail-info">MySQL</li>
             </ul>
          </div>
          <div class="devops">

@@ -5,7 +5,7 @@
    </head>
    <style>
       body {
-        padding: 0 30em 0 30em;
+        padding: 0 30vw 0 30vw;
         margin: 0;
         font-size: 1em;
         font-family: "Montserrat", sans-serif;
@@ -13,7 +13,7 @@
         font-weight: 500;
         line-height: 17px;
         background-color: #191919;
-        color: white;
+        color: #D4D4D4;
       }
 
       h1 {
@@ -28,8 +28,26 @@
         color: aliceblue;
       }
 
+      li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
       a:hover {
         text-decoration: underline;
+      }
+
+      hr{
+        border: 1px solid #373737;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .stacks{
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap; 
+        height: 180px;
       }
 
       @media screen and (max-width: 600px) {
@@ -67,16 +85,20 @@
       
    </style>
    <body>
-      <h1></h1>
+      <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <h1 style="font-size: 5rem; margin-bottom: 0;">📖</h1>
+        <a style="margin-top: 100px;" href="index.html">🏠 back to home !</a>
+      </div>
+      
       <h1>My Resume</h1>
 
-      <h2>Backend Engineer.</h2>
-      <h3>Hardtmann Mekatroniske - Part time</h3>
+      <h2>Backend Engineer. - Part timer</h2>
+      <h3>Hardtmann Mekatroniske - Remote</h3>
       <p>November 2022 - Present</p>
       <div>
-        <p> Stacks :</p>
+        <p>⚡ Stacks :</p>
         <div>
-            <ul>
+            <ul class="stacks">
                 <li>Golang</li>
                 <li>MySQL</li>
                 <li>Restful API</li>
@@ -86,9 +108,9 @@
                 <li>GCP</li>
             </ul>
         </div>
-        <p>Works : </p>
+        <p>💼 Works : </p>
         <ul>
-            <li>maintain BE server for electronic vehicle charger [Starvo - Starvo EV Charging]</li>
+            <li>maintain BE server for electronic vehicle charger [<a href="https://starvo.co.id/">Starvo.co.id</a>]</li>
             <li>maintain DevOps for BE server to a cloud infrastructure</li>
         </ul>
       </div>
@@ -99,9 +121,9 @@
       <h3>Dispendix GmbH - Bandung Indonesia</h3>
       <p>March 2022 - Present</p>
       <div>
-        <p> Stacks :</p>
+        <p>⚡ Stacks :</p>
         <div>
-            <ul>
+            <ul class="stacks">
                 <li>.NET WPF</li>
                 <li>.NET Avalonia</li>
                 <li>ASP .NET</li>
@@ -112,7 +134,7 @@
                 <li>Azure DevOps</li>
             </ul>
         </div>
-        <p>Works : </p>
+        <p>💼 Works : </p>
         <ul>
             <li>implement new lab automation library with SiLA 2 on WPF .NET application, create a sample client application with Avalonia, make IDOT accessible for more automation client [I.DOT non-contact liquid handler | DISPENDIX]</li>
             <li>develop new liquid handling product with Angular + Electron and ASP .NET, add new product to the company portfolio</li>
@@ -127,9 +149,9 @@
       <h3>Formulatrix - Bandung Indonesia</h3>
       <p>August 2017 - March 2021, 3yrs8m</p>
       <div>
-        <p> Stacks :</p>
+        <p>⚡ Stacks :</p>
         <div>
-            <ul>
+            <ul class="stacks">
                 <li>.NET Winform</li>
                 <li>ReactJS</li>
                 <li>ASP .NET</li>
@@ -138,7 +160,7 @@
                 <li>Jenkins</li>
             </ul>
         </div>
-        <p>Works : </p>
+        <p>💼 Works : </p>
         <ul>
             <h3>Project Leader</h3>
             <li>Manage Reagent Exchanger project, part of Cellmatic [Automated Cell Culture (formulatrix.com)], 9 direct reports, composed with :
@@ -182,9 +204,9 @@
       <h3>Gameloft - Yogyakarta, Indonesia</h3>
       <p>June 2016 - August 2017, 1yrs3m</p>
       <div>
-        <p> Stacks :</p>
+        <p>⚡ Stacks :</p>
         <div>
-            <ul>
+            <ul class="stacks">
                 <li>C++</li>
                 <li>Java android</li>
                 <li>Flash ActionScript</li>
@@ -192,7 +214,7 @@
                 <li>OpenGL</li>
             </ul>
         </div>
-        <p>Works : </p>
+        <p>💼 Works : </p>
         <ul>
             <li>My Little Pony Android HD+ porting team 
                 <a href="https://www.gameloft.com/game/my-little-pony">My Little Pony | Gameloft</a></li>
@@ -202,6 +224,5 @@
         </ul>
       </div>
 
-      <a style="margin-top: 1em;" href="index.html">📰 back to home!</a>
    </body>
 </html>
